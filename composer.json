@@ -1,0 +1,25 @@
+{
+    "name": "extrameile/em-antivirus",
+    "description": "TYPO3 Extension to check uploads against an anti virus tool like clamav or eset",
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Opitz",
+            "email": "opitz@extrameile-gehen.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.0 || ^9.5.0 || ^10.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Extrameile\\EmAntivirus\\": "Classes/"
+        }
+    },
+    "extra": {
+        "installer-name": "em_antivirus"
+    }
+}

@@ -75,6 +75,6 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['binSetup'] = 'esets_scan=/opt/eset/efs/sbin/
 ## HowTo Test the functionality
 
 After completing the setup, upload an eicar testfile and the scanner should kick in. Be aware that you might have to
-disable your local virus scanner to download the file!
+disable your local virus scanner to download the file! The files can be found here https://www.eicar.org/?page_id=3950
 The file will be blocked right after the upload is done, an error message will show up and it will not be moved to your
 chosen upload folder.

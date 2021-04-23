@@ -72,3 +72,9 @@ Example for ESET FileSecurity with cls:
 ```
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['binSetup'] = 'esets_scan=/opt/eset/efs/sbin/cls/cls';
 ```
+## HowTo Test the functionality
+
+After completing the setup, upload an eicar testfile and the scanner should kick in. Be aware that you might have to
+disable your local virus scanner to download the file!
+The file will be blocked right after the upload is done, an error message will show up and it will not be moved to your
+chosen upload folder.
